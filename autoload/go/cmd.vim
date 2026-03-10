@@ -336,7 +336,7 @@ function! go#cmd#Generate(bang, ...) abort
       call go#util#EchoSuccess('[generate] SUCCESS')
     endif
   endif
-  call go#statusline#Update(expand(':%:p:h'), l:status)
+  call go#statusline#Update(expand('%:p:h'), l:status)
 endfunction
 
 function! s:runerrorformat()
