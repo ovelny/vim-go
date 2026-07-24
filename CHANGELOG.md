@@ -19,6 +19,9 @@ BUG FIXES:
 * Bring back go-callers mappings, its documentation, and :GoCallers
   documentation.
   [[GH-3741]](https://github.com/fatih/vim-go/pull/3741)
+* Fix highlighting of multi-line string concatenation in a var or const block.
+  [[GH-3750]](https://github.com/fatih/vim-go/pull/3750)
+  [[GH-3751]](https://github.com/fatih/vim-go/pull/3751)
 
 
 ## v1.29 - (April 18, 2025)
